@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,68 +19,55 @@
     <!-- Main Js -->
     <script src="script/main.js"></script>
 
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+
     <title>Wahyu Kitchen | Kitchen Stainless Murah</title>
 </head>
 <body>
  
 <!-- Header Navbar -->
 <header class="bg-white sticky top-0 z-50">
-    <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-      <div class="flex h-16 items-center justify-between">
-        <div class="flex-1 md:flex md:items-center md:gap-12">
-          <a class="block text-blue-600" href="#">
-            <span class="sr-only">Home</span>
-            WAHYU KITCHEN
-          </a>
+  <div class="navbar bg-white-500">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5 "
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="blue">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h7" />
+          </svg>
         </div>
-  
-        <div class="md:flex md:items-center md:gap-12">
-          <nav aria-label="Global" class="hidden md:block">
-            <ul class="flex items-center gap-6 text-sm">
-              <li>
-                <a class="text-gray-500 transition hover:text-blue-500/75" href="#tentang-kami"> Tentang Kami </a>
-              </li>
-  
-              <li>
-                <a class="text-gray-500 transition hover:text-blue-500/75" href="#layanan"> Layanan </a>
-              </li>
-  
-              <li>
-                <a class="text-gray-500 transition hover:text-blue-500/75" href="#product"> Product </a>
-              </li>
-  
-              <li>
-                <a class="text-gray-500 transition hover:text-blue-500/75" href="#"> Services </a>
-              </li>
-  
-              <li>
-                <a class="text-gray-500 transition hover:text-blue-500/75" href="#"> Projects </a>
-              </li>
-  
-              <li>
-                <a class="text-gray-500 transition hover:text-blue-500/75" href="#"> Blog </a>
-              </li>
-            </ul>
-          </nav>
-  
-            <div class="block md:hidden">
-              <button class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-              </button>
-            </div>
-          </div>
-        </div>
+        <ul
+          tabindex="0"
+          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+          <li><a href="#">Homepage</a></li>
+          <li><a href="#tentang-kami">Tentang Kami</a></li>
+          <li><a href="#layanan">Layanan</a></li>
+          <li><a href="#layanan">Produk</a></li>
+          <li><a href="#layanan">Customer</a></li>
+          <li><a href="#layanan">Contact</a></li>
+          <li><a href="#layanan">Dokumentasi</a></li>
+        </ul>
       </div>
     </div>
+    <div class="navbar-center">
+      <a class="btn btn-ghost text-blue-600 text-xl" translate="no">Wahyu Kitchen</a>
+    </div>
+    <div class="navbar-end">
+    </div>
+  </div>
   </header>
 <!-- End Header Navbar -->
 
@@ -88,7 +75,7 @@
 
 
 <section
-  class="relative bg-local bg-cover bg-center bg-no-repeat" style="background-image: url('img/home2.webp');"
+  class="relative bg-local bg-cover bg-center bg-no-repeat" style="background-image: url('img/home2.jpeg');"
 >
   <div
     class="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"
@@ -101,7 +88,7 @@
       <h1 class="text-3xl font-extrabold text-white sm:text-5xl">
         Let us find your
 
-        <strong class="block font-extrabold text-rose-500"> Best Kitchen. </strong>
+        <strong class="block font-extrabold text-blue-500"> Best Kitchen. </strong>
       </h1>
 
       <p class="mt-4 max-w-lg text-white sm:text-xl/relaxed">
@@ -111,14 +98,14 @@
       <div class="mt-8 flex flex-wrap gap-4 text-center">
         <a
           href="#product"
-          class="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+          class="block w-full rounded bg-blue-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-700 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
         >
           Lihat Produk
         </a>
 
         <a
           href="#"
-          class="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
+          class="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-blue-600 shadow hover:text-blue-700 focus:outline-none focus:ring active:text-blue-500 sm:w-auto"
         >
           Hubungi Admin
         </a>
@@ -136,7 +123,7 @@
     <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
       <div class="max-w-3xl">
         <h2 class="text-3xl font-bold sm:text-4xl text-gray-600" >
-          Tentang Kami
+          Tentang Wahyu Kitchen
         </h2>
       </div>
   
@@ -177,7 +164,7 @@
 <section class="bg-gray-900 text-white" id="layanan">
   <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
     <div class="mx-auto max-w-lg text-center">
-      <h2 class="text-3xl font-bold sm:text-4xl">Layanan Kami</h2>
+      <h2 class="text-3xl font-bold sm:text-4xl">Layanan</h2>
 
       <p class="mt-4 text-gray-300">
         Wahyu Kitchen Menyediakan Beberapa Layanan Untuk Membantu Membuat Kithcen Anda sesuai dengan impian anda
@@ -255,7 +242,7 @@
       <div class="h-1 bg-gray-800 rounded overflow-hidden">
       </div>
       <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
-        <h1 class="sm:w-2/5 text-white font-medium title-font text-2xl mb-2 sm:mb-0">Product Kami</h1>
+        <h1 class="sm:w-2/5 text-white font-medium title-font text-2xl mb-2 sm:mb-0">Product</h1>
       </div>
     </div>
     <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 gap-12 justify-center">
@@ -263,7 +250,7 @@
         <figure>
           <img
             src="img/gasgrillfliptop.jpeg"
-            alt="Shoes" />
+            alt="gas grill flip top" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">Gas Grill Flip Top</h2>
@@ -277,7 +264,7 @@
         <figure>
           <img
             src="img/standringdeepfryer.jpg"
-            alt="Shoes" />
+            alt="standing deep fryer" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">Standing Deep Fryer</h2>
@@ -291,11 +278,11 @@
         <figure>
           <img
             src="img/singlekwalirng.webp"
-            alt="Shoes" />
+            alt="Single kwali range" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">Single Kwali Range</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <p>Mesin Penggorengan Berbahan Kwali</p>
           <div class="card-actions justify-end">
             <button class="btn btn-primary">Buy Now</button>
           </div>
@@ -305,7 +292,7 @@
         <figure>
           <img
             src="img/under-counter-chiller-6-drawercrown-1.jpeg"
-            alt="Shoes" />
+            alt="under counter chiller" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">Under Counter Chiller</h2>
@@ -319,7 +306,7 @@
         <figure>
           <img
             src="img/grillcustom.webp"
-            alt="Shoes" />
+            alt="grill custom" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">Grill Custom</h2>
@@ -333,7 +320,7 @@
         <figure>
           <img
             src="img/water boiler.webp"
-            alt="Shoes" />
+            alt="water boiler" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">Water Boiler</h2>
@@ -348,6 +335,139 @@
   </div>
 </section>
 
-<!-- our Product -->
+<!-- end Product -->
+
+<!-- Customer -->
+
+<section class="bg-gray-900 py-12">
+  <div class="mx-auto max-w-lg text-center p-12">
+    <h2 class="text-3xl font-bold sm:text-4xl">Customer</h2>
+
+    <p class="mt-4 text-gray-300">
+    </p>
+  </div>
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <div class="flex justify-around">
+          <img src="img/kutaparadiso.png" alt="kutaparadiso" class="customer-logo">
+          <img src="img/mie gacoan.png" alt="mie gacoan" class="customer-logo">
+          <img src="img/astone denpasar.png" alt="astone denpasar" class="customer-logo">
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <div class="flex justify-around">
+          <img src="img/balindo paradiso.jpeg" alt="balindo paradiso" class="customer-logo">
+          <img src="img/Nayati-Indonesia.jpg" alt="Nayati Indonesia" class="customer-logo">
+          <img src="img/mie gacoan.png" alt="mie gacoan" class="customer-logo">
+        </div>
+      </div>
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="flex justify-around">
+          <img src="img/astone denpasar.png" alt="astone denpasar" class="customer-logo">
+          <img src="img/balindo paradiso.jpeg" alt="balindo paradiso" class="customer-logo">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End Customer -->
+
+<!-- Contact -->
+
+<section class="bg-gray-900 py-12">
+  <div class="mx-auto max-w-lg text-center">
+    <h2 class="text-3xl font-bold sm:text-4xl">Hubungi Kami</h2>
+  </div>
+  <div class="hero min-h-screen">
+    <div class="hero-content flex-col lg:flex-col">
+      <div class="justify-center">
+        <h2 class="py-6 text-2xl">Wahyu Widi (Owner) <i class="uil uil-arrow-right"></i> 08123989148</h2>
+        <a href="https://wa.me/628123989148" target="_blank" class="btn btn-primary">Whatsapp<i class="uil uil-whatsapp"></i></a>
+        <h2 class="py-6 text-2xl">Arga Lucky Pratama (Marketing)</h2>
+        <a href="https://wa.me/628123989148" target="_blank" class="btn btn-primary">Whatsapp<i class="uil uil-whatsapp"></i></a>
+        <h2 class="py-6 text-2xl">Edy Susanto (Marketing)</h2>
+        <a href="https://wa.me/628123989148" target="_blank" class="btn btn-primary">Whatsapp<i class="uil uil-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End Contact -->
+
+<!-- Gallery -->
+
+<section class="bg-gray-900 py-12">
+  <div class="mx-auto max-w-lg text-center p-12">
+    <h2 class="text-3xl font-bold sm:text-4xl">Dokumentasi</h2>
+
+    <p class="mt-4 text-gray-300">
+    </p>
+  </div>
+  <div class="carousel w-full">
+    <div id="slide1" class="carousel-item relative w-full">
+      <img
+        src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
+        class="w-full" />
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide4" class="btn btn-circle">❮</a>
+        <a href="#slide2" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+    <div id="slide2" class="carousel-item relative w-full">
+      <img
+        src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
+        class="w-full" />
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide1" class="btn btn-circle">❮</a>
+        <a href="#slide3" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+    <div id="slide3" class="carousel-item relative w-full">
+      <img
+        src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
+        class="w-full" />
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide2" class="btn btn-circle">❮</a>
+        <a href="#slide4" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+    <div id="slide4" class="carousel-item relative w-full">
+      <img
+        src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
+        class="w-full" />
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide3" class="btn btn-circle">❮</a>
+        <a href="#slide1" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End Gallery -->
+
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  var swiper = new Swiper('.swiper', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+  },
+  loop: true,
+});
+</script>
 </body>
+
+
 </html>

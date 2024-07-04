@@ -1,0 +1,11 @@
+.customer-logo {
+    height: 240px; 
+    width: auto; 
+    object-fit: cover; 
+}
+
+@media screen and (max-width: 768px) {
+    .customer-logo {
+        height: 72px;
+    }
+}
