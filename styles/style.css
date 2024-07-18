@@ -1,7 +1,8 @@
 .customer-logo {
     height: 240px; 
-    width: auto; 
-    object-fit: cover; 
+    width: 240px; 
+    object-fit: cover;
+    padding: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -9,3 +10,4 @@
         height: 72px;
     }
 }
+
